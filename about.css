@@ -9,7 +9,7 @@ header {
   height: 50vh;
   background-color: #000;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(../Images/mainbg.jpg);
+    url(./Images/mainbg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
