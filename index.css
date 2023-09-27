@@ -523,19 +523,22 @@ section a::after {
   margin: 0px 10px;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 770px) {
   .nav-links {
     display: block;
     position: absolute;
-    width: 50%;
+    width: 0%;
     height: 100vh;
     top: 0px;
-    right: -200px;
-    display: none;
+    right: 0px;
     background: #f44336;
-    z-index: 111111;
+    z-index: 1;
     padding-top: 218px;
-    transition: all 0.5s ease;
+    transition: all 0.5s;
+    overflow-x: hidden;
+  }
+  .opened {
+    width: 30%;
   }
   .nav-links i {
     display: block;
@@ -575,6 +578,7 @@ section a::after {
   header img:hover {
     transform: scaleX(1);
   }
+
   .nav-links li {
     display: flex;
     flex-direction: column;
