@@ -20,6 +20,10 @@ header img {
   height: auto;
 }
 
+nav img {
+  cursor: pointer;
+}
+
 nav {
   padding-left: 5%;
   padding-right: 5%;
@@ -30,6 +34,7 @@ nav {
   justify-content: space-between;
   box-sizing: border-box;
   overflow: hidden;
+  position: fixed;
 }
 
 .nav-links i {
@@ -222,6 +227,7 @@ input[type="submit"] {
     padding-top: 218px;
     transition: all 0.5s;
     overflow-x: hidden;
+    position: inherit;
   }
   .opened {
     width: 30%;

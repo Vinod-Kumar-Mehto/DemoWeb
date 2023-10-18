@@ -19,6 +19,9 @@ header img {
   width: 13.5%;
   height: auto;
 }
+nav img {
+  cursor: pointer;
+}
 
 nav {
   padding-left: 5%;
@@ -30,6 +33,7 @@ nav {
   justify-content: space-between;
   box-sizing: border-box;
   overflow: hidden;
+  position: fixed;
 }
 
 .nav-links i {
@@ -223,6 +227,7 @@ nav ul li a {
     padding-top: 218px;
     transition: all 0.5s;
     overflow-x: hidden;
+    position: inherit;
   }
   .opened {
     width: 30%;

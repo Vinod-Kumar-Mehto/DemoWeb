@@ -34,6 +34,11 @@ nav {
   justify-content: space-between;
   box-sizing: border-box;
   overflow: hidden;
+  position: fixed;
+}
+
+nav img {
+  cursor: pointer;
 }
 
 .nav-links i {
@@ -96,6 +101,18 @@ nav ul li a {
   color: #fff;
   padding-bottom: 10px;
   box-sizing: border-box;
+  width: 0;
+  overflow: hidden;
+  animation: typing 5s forwards;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
 }
 
 .section p {
@@ -221,8 +238,16 @@ section a::after {
 .section3 {
   width: 100%;
   height: auto;
-  margin-top: 3%;
+  margin-top: 2%;
   padding: 20px;
+}
+.section44 {
+  width: 100%;
+  height: auto;
+  margin-top: 2%;
+  padding: 20px;
+  border-top: 5px solid wheat;
+  background-color: rgb(188, 210, 218);
 }
 
 .section3 h1 {
@@ -231,6 +256,30 @@ section a::after {
   text-transform: capitalize;
   font-size: 35px;
   padding-bottom: 10px;
+}
+
+.section44 h1 {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
+  font-size: 35px;
+  padding-bottom: 10px;
+}
+
+.section44 h6 {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+.section44 p {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
+  font-size: 15px;
+  color: #777;
+  font-weight: 500;
 }
 
 .section3 p {
@@ -242,6 +291,7 @@ section a::after {
   font-weight: 500;
 }
 
+.clmn,
 .row {
   width: 100%;
   height: auto;
@@ -251,6 +301,7 @@ section a::after {
   box-sizing: border-box;
 }
 
+.clmn-divs,
 .row-divs {
   flex-grow: 1;
   margin: 0px 20px;
@@ -422,7 +473,7 @@ section a::after {
 
 .section6 {
   width: 100%;
-  margin-top: 5%;
+  margin-top: 3%;
   height: auto;
   box-sizing: border-box;
   padding: 2% 10%;
@@ -536,6 +587,7 @@ section a::after {
     padding-top: 218px;
     transition: all 0.5s;
     overflow-x: hidden;
+    position: inherit;
   }
   .opened {
     width: 30%;
@@ -617,12 +669,15 @@ section a::after {
   .items p {
     font-size: 10px;
   }
+  .clmn,
   .row {
     flex-direction: column;
   }
+  .clmn-divs,
   .row-divs {
     margin: 10px 0px;
   }
+  .clmn-divs,
   .row-divs p {
     font-size: 10px;
   }
