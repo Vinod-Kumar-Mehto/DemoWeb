@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 header {
   width: 100%;
   height: 100vh;
@@ -178,8 +182,8 @@ section a::after {
   padding: 20px;
   background-image: linear-gradient(
     to bottom right,
-    rgb(101, 165, 204),
-    rgb(116, 116, 101)
+    rgb(197, 157, 193),
+    rgb(195, 171, 127)
   );
 }
 
@@ -192,7 +196,7 @@ section a::after {
 }
 
 .section2 p {
-  color: #777;
+  color: #190404;
   text-align: center;
   font-family: "Poppins", sans-serif;
   font-size: 15px;
@@ -214,14 +218,14 @@ section a::after {
   text-align: center;
   margin: 0px 20px;
   border-radius: 10px;
-  background: rgb(226, 211, 211);
+  background: rgb(251, 253, 253);
 }
 
 .items p {
   font-size: 14px;
   font-family: "Poppins", sans-serif;
   text-transform: capitalize;
-  color: rgb(53, 49, 49);
+  color: #190404;
 }
 
 .items h3 {
@@ -247,7 +251,11 @@ section a::after {
   margin-top: 2%;
   padding: 20px;
   border-top: 5px solid wheat;
-  background-color: rgb(188, 210, 218);
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(253, 215, 247),
+    rgb(237, 242, 241)
+  );
 }
 
 .section3 h1 {
@@ -278,7 +286,7 @@ section a::after {
   font-family: "Poppins", sans-serif;
   text-transform: capitalize;
   font-size: 15px;
-  color: #777;
+  color: #190404;
   font-weight: 500;
 }
 
@@ -287,7 +295,7 @@ section a::after {
   font-family: "Poppins", sans-serif;
   text-transform: capitalize;
   font-size: 15px;
-  color: #777;
+  color: #190404;
   font-weight: 500;
 }
 
@@ -346,7 +354,7 @@ section a::after {
   text-align: center;
   font-size: 15px;
   font-family: "Poppins", sans-serif;
-  color: #777;
+  color: #190404;
   font-weight: 500;
 }
 
@@ -416,7 +424,7 @@ section a::after {
   font-family: "Poppins", sans-serif;
   text-transform: capitalize;
   font-size: 15px;
-  color: #777;
+  color: #190404;
 }
 
 .section5 .row-3 {
@@ -555,14 +563,14 @@ section a::after {
 }
 
 .section7 h2 {
-  color: #000;
+  color: #190404;
   font-family: "Poppins", sans-serif;
   text-transform: capitalize;
   padding-bottom: 40px;
 }
 
 .section7 p {
-  color: #777;
+  color: #190404;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   padding-bottom: 20px;
@@ -584,7 +592,7 @@ section a::after {
     right: 0px;
     background: #f44336;
     z-index: 1;
-    padding-top: 218px;
+    padding-top: 100px;
     transition: all 0.5s;
     overflow-x: hidden;
     position: inherit;
