@@ -24,8 +24,8 @@ header {
 }
 
 header img {
-  width: 13.5%;
-  height: auto;
+  width: 20%;
+  margin: 2px 2px 3px 3px;
 }
 
 nav {
@@ -39,6 +39,7 @@ nav {
   box-sizing: border-box;
   overflow: hidden;
   position: fixed;
+  background-color: #000;
 }
 
 nav img {
@@ -57,7 +58,7 @@ nav .fas {
 
 nav ul li {
   display: inline-block;
-  margin: 5px 10px;
+  margin: 22px 10px;
   position: relative;
 }
 
@@ -141,7 +142,7 @@ nav ul li a {
   position: relative;
   transition: all 0.5s ease;
   display: inline-block;
-  background: transparent;
+  background: black;
 }
 
 .section a::before {
@@ -185,6 +186,12 @@ section a::after {
     rgb(197, 157, 193),
     rgb(195, 171, 127)
   );
+}
+.firstName {
+  color: white;
+}
+.nameCol {
+  color: #0848bf;
 }
 
 .section2 h1 {
