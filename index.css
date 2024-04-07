@@ -597,7 +597,7 @@ section a::after {
     height: 100vh;
     top: 0px;
     right: 0px;
-    background: #f44336;
+    background: #433d3c;
     z-index: 1;
     padding-top: 100px;
     transition: all 0.5s;
@@ -777,7 +777,7 @@ section a::after {
     padding-bottom: 20px;
   }
   .section7 i {
-    color: #f44336;
+    color: #ba908d;
     font-size: 13px;
     margin: 0px 7px;
   }
