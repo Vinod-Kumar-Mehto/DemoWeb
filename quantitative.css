@@ -159,7 +159,7 @@ nav ul li a {
     display: block;
     position: absolute;
     width: 0%;
-    height: 50vh;
+    height: 30vh;
     top: 0px;
     right: 0px;
     background: #433d3c;
@@ -197,7 +197,15 @@ nav ul li a {
     align-items: center;
   }
   .nav-links li a {
-    font-size: 16px;
+    font-size: 11px;
+  }
+  @keyframes typing {
+    from {
+      font-size: 5px;
+    }
+    to {
+      font-size: 25px;
+    }
   }
   .section h1 {
     font-size: 20px;
