@@ -116,7 +116,9 @@ nav ul li a {
     rgb(235, 183, 206)
   );
 }
-
+.section2 h2 {
+  text-shadow: 1px 1px 1px #000000;
+}
 .about {
   width: 100%;
   height: auto;
@@ -145,6 +147,7 @@ nav ul li a {
   text-transform: capitalize;
   color: #190404;
   padding-bottom: 30px;
+  font-style: oblique;
 }
 
 .about-1 a {
@@ -232,7 +235,7 @@ nav ul li a {
     display: block;
     position: absolute;
     width: 0%;
-    height: 30vh;
+    height: 32vh;
     top: 0px;
     right: 0px;
     background: #433d3c;
