@@ -331,4 +331,7 @@ nav ul li a {
     font-size: 13px;
     margin: 0px 7px;
   }
+  h3 {
+    font-size: small;
+  }
 }
