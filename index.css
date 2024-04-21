@@ -11,7 +11,7 @@ html {
 header {
   width: 100%;
   height: 100vh;
-  background-color: #000;
+  background-color: #f5e0e0;
   background-image: linear-gradient(
       160deg,
       rgba(0, 0, 0, 0.5) 0%,
@@ -40,6 +40,7 @@ nav {
   overflow: hidden;
   position: fixed;
   background-color: #000;
+  z-index: 1;
 }
 
 nav img {
@@ -69,7 +70,7 @@ nav ul li::after {
   position: absolute;
   left: 0px;
   bottom: 0px;
-  background: #f44336;
+  background: #0947d9;
   transition: all ease 0.4s;
 }
 
@@ -92,13 +93,13 @@ nav ul li a {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -40%);
   text-align: center;
   overflow: hidden;
 }
 
 .section h1 {
-  font-size: 60px;
+  font-size: 10px;
   letter-spacing: 1px;
   font-weight: bold;
   font-family: "Poppins", sans-serif;
@@ -106,24 +107,24 @@ nav ul li a {
   color: #fff;
   padding-bottom: 10px;
   box-sizing: border-box;
-  width: 0;
+  width: 100%;
   overflow: hidden;
   animation: typing 5s forwards;
 }
 
 @keyframes typing {
   from {
-    width: 0;
+    font-size: 10px;
   }
   to {
-    width: 100%;
+    font-size: 60px;
   }
 }
 
 .section p {
-  color: white;
+  color: rgb(255, 255, 255);
   font-size: 15px;
-  font-weight: 400;
+  font-weight: 450;
   font-family: "Poppins", sans-serif;
   text-transform: capitalize;
   padding-bottom: 30px;
@@ -136,13 +137,13 @@ nav ul li a {
   font-family: "Poppins", sans-serif;
   font-size: 15px;
   text-transform: capitalize;
-  border: 2px solid #fff;
+  border: 2px solid #ffffff;
   box-sizing: border-box;
   padding: 10px 20px;
   position: relative;
   transition: all 0.5s ease;
   display: inline-block;
-  background: black;
+  background: rgb(100, 136, 178);
 }
 
 .section a::before {
@@ -170,21 +171,21 @@ section a::after {
 }
 
 .section a:hover {
-  border: 2px solid #f44336;
-  background-color: #f44336;
+  border: 2px solid #1735db;
+  background-color: #0d14d1;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
   transition: all 0.5s ease;
 }
 
 .section2 {
-  margin-top: 3%;
+  margin-top: 0%;
   width: 100%;
   height: auto;
   padding: 20px;
   background-image: linear-gradient(
     to bottom right,
-    rgb(197, 157, 193),
-    rgb(195, 171, 127)
+    rgb(193, 210, 193),
+    rgb(101, 109, 118)
   );
 }
 .firstName {
@@ -198,7 +199,7 @@ section a::after {
   text-align: center;
   padding-bottom: 10px;
   font-size: 35px;
-  font-family: "Poppins", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   text-transform: capitalize;
 }
 
@@ -211,7 +212,7 @@ section a::after {
 }
 
 .item-courses {
-  padding: 3% 6%;
+  padding: 3% 0%;
   width: 100%;
   height: auto;
   display: flex;
@@ -225,7 +226,7 @@ section a::after {
   text-align: center;
   margin: 0px 20px;
   border-radius: 10px;
-  background: rgb(251, 253, 253);
+  background: rgb(251, 252, 253);
 }
 
 .items p {
@@ -249,19 +250,22 @@ section a::after {
 .section3 {
   width: 100%;
   height: auto;
-  margin-top: 2%;
   padding: 20px;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(193, 210, 193),
+    rgb(227, 233, 239)
+  );
 }
+
 .section44 {
   width: 100%;
   height: auto;
-  margin-top: 2%;
   padding: 20px;
-  border-top: 5px solid wheat;
   background-image: linear-gradient(
     to bottom right,
-    rgb(253, 215, 247),
-    rgb(237, 242, 241)
+    rgb(277, 233, 239),
+    rgb(193, 210, 2193)
   );
 }
 
@@ -376,7 +380,7 @@ section a::after {
 .row2s {
   flex-grow: 1;
   box-sizing: border-box;
-  background: #e2cfceb6;
+  background: #f4edecb6;
   margin: 0px 20px;
   padding: 20px;
   border-radius: 10px;
@@ -555,18 +559,22 @@ section a::after {
 
 .section6 .sec6s a:hover {
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-  background: #f44336;
-  border: 2px solid #f44336;
+  background: #0d6ab6;
+  border: 2px solid #094a91;
   transition: all 0.7s ease;
 }
 
 .section7 {
   width: 100%;
-  margin-top: 6%;
   height: auto;
+  background-color: rgb(227, 240, 241);
   box-sizing: border-box;
   padding: 50px;
   text-align: center;
+}
+
+.section7 .reserv {
+  font-size: 12px;
 }
 
 .section7 h2 {
@@ -594,7 +602,7 @@ section a::after {
     display: block;
     position: absolute;
     width: 0%;
-    height: 100vh;
+    height: 50vh;
     top: 0px;
     right: 0px;
     background: #433d3c;

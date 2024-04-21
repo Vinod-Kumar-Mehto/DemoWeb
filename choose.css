@@ -38,6 +38,7 @@ nav {
   overflow: hidden;
   position: fixed;
   background-color: #000;
+  z-index: 1;
 }
 
 .nav-links i {
@@ -63,7 +64,7 @@ nav ul li::after {
   position: absolute;
   left: 0px;
   bottom: 0px;
-  background: #f44336;
+  background: #0947d9;
   transition: all ease 0.4s;
 }
 
@@ -106,8 +107,12 @@ nav ul li a {
   width: 100%;
   height: auto;
   padding: 20px;
-  margin-top: 5%;
   box-sizing: border-box;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(171, 163, 225),
+    rgb(214, 238, 243)
+  );
 }
 
 .about {
@@ -191,11 +196,11 @@ nav ul li a {
 
 .section3 {
   width: 100%;
-  margin-top: 5%;
   height: auto;
   box-sizing: border-box;
   padding: 50px;
   text-align: center;
+  background-color: rgb(227, 240, 241);
 }
 
 .section3 h2 {
@@ -223,7 +228,7 @@ nav ul li a {
     display: block;
     position: absolute;
     width: 0%;
-    height: 100vh;
+    height: 50vh;
     top: 0px;
     right: 0px;
     background: #433d3c;
