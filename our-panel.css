@@ -500,6 +500,7 @@ nav ul li a {
   }
   .about ul {
     display: flex;
+    margin-top: -50px;
     flex-direction: column;
     align-items: center;
     background-color: rgb(242, 245, 249);
@@ -547,6 +548,14 @@ nav ul li a {
     border-radius: 5px;
     padding: 90px 70px 10px 70px;
     background: rgba(39, 39, 217, 0.9);
+  }
+
+  .about ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
   }
 
   .section4 {
