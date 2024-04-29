@@ -134,6 +134,14 @@ nav ul li a {
   box-shadow: 2px 2px 20px 3px black;
 }
 
+.about ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
 .about-1 ul h2 {
   padding: 7px;
   color: #161282;
