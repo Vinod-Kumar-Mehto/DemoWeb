@@ -148,6 +148,20 @@ nav ul li a {
   background-color: rgb(227, 240, 241);
 }
 
+.section3 h2 {
+  color: #190404;
+  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
+  padding-bottom: 40px;
+}
+
+.section3 p {
+  color: #190404;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  padding-bottom: 20px;
+}
+
 .section3 i {
   color: #f44336;
   font-size: 16px;
@@ -159,7 +173,7 @@ nav ul li a {
     display: block;
     position: absolute;
     width: 0%;
-    height: 32vh;
+    height: 37vh;
     top: 0px;
     right: 0px;
     background: #433d3c;
@@ -170,7 +184,7 @@ nav ul li a {
     position: inherit;
   }
   .opened {
-    width: 30%;
+    width: 36%;
   }
   .nav-links i {
     display: block;

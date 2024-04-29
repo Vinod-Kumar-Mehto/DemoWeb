@@ -613,7 +613,7 @@ section a::after {
     display: block;
     position: absolute;
     width: 0%;
-    height: 32vh;
+    height: 37vh;
     top: 0px;
     right: 0px;
     background: #433d3c;
@@ -624,7 +624,7 @@ section a::after {
     position: inherit;
   }
   .opened {
-    width: 30%;
+    width: 36%;
   }
   .nav-links i {
     display: block;
